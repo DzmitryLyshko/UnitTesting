@@ -1,0 +1,214 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-10-22T16:12:49.881Z",
+    "end": "2021-10-22T16:12:49.893Z",
+    "duration": 12,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6edd5aeb-5e55-47aa-9856-fd57d51301dc",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c530d642-a4f7-4fbb-873c-0fcbdac3694d",
+          "title": "isNumberEven positive scenarios",
+          "fullFile": "C:\\Study\\EPAM\\UnitTesting\\test\\specs\\isNumberEven.spec.js",
+          "file": "\\test\\specs\\isNumberEven.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"isNumberEven positive scenarios\"",
+              "fullTitle": "isNumberEven positive scenarios \"before each\" hook in \"isNumberEven positive scenarios\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = new NumbersValidator();",
+              "err": {},
+              "uuid": "cb333fee-b4e5-45aa-b35d-8c99a04d8b77",
+              "parentUUID": "c530d642-a4f7-4fbb-873c-0fcbdac3694d",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"isNumberEven positive scenarios\"",
+              "fullTitle": "isNumberEven positive scenarios \"after each\" hook in \"isNumberEven positive scenarios\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "validator = null;",
+              "err": {},
+              "uuid": "10bb19cd-278b-4dde-b6b1-eb2c662e527a",
+              "parentUUID": "c530d642-a4f7-4fbb-873c-0fcbdac3694d",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should return true if number is even",
+              "fullTitle": "isNumberEven positive scenarios should return true if number is even",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(validator.isNumberEven(4)).to.be.equal(true);",
+              "err": {},
+              "uuid": "c92735e5-ff5d-47d1-8dcd-7200aade7cf9",
+              "parentUUID": "c530d642-a4f7-4fbb-873c-0fcbdac3694d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should return false if number is odd",
+              "fullTitle": "isNumberEven positive scenarios should return false if number is odd",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(validator.isNumberEven(5)).to.be.equal(false);",
+              "err": {},
+              "uuid": "9646de65-f242-4026-905c-c9a7d3cd9a59",
+              "parentUUID": "c530d642-a4f7-4fbb-873c-0fcbdac3694d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "chai test 1",
+              "fullTitle": "isNumberEven positive scenarios chai test 1",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect({a: 'apple', b: 43}).to.have.property('a');",
+              "err": {},
+              "uuid": "0f5ff310-5963-4518-a741-72b0e27a5b48",
+              "parentUUID": "c530d642-a4f7-4fbb-873c-0fcbdac3694d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "chai test 2",
+              "fullTitle": "isNumberEven positive scenarios chai test 2",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect({a: 'apple', b: 43}).to.be.eql({a: 'apple', b: 43});",
+              "err": {},
+              "uuid": "24e995f8-1978-41e7-91c1-a34669ad2174",
+              "parentUUID": "c530d642-a4f7-4fbb-873c-0fcbdac3694d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "chai test 3",
+              "fullTitle": "isNumberEven positive scenarios chai test 3",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect([1, 'apple']).to.have.lengthOf(2);",
+              "err": {},
+              "uuid": "c5b8c242-be1b-4502-953a-a548dd790fa4",
+              "parentUUID": "c530d642-a4f7-4fbb-873c-0fcbdac3694d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c92735e5-ff5d-47d1-8dcd-7200aade7cf9",
+            "9646de65-f242-4026-905c-c9a7d3cd9a59",
+            "0f5ff310-5963-4518-a741-72b0e27a5b48",
+            "24e995f8-1978-41e7-91c1-a34669ad2174",
+            "c5b8c242-be1b-4502-953a-a548dd790fa4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.1.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
